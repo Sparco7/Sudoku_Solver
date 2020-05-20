@@ -1,0 +1,141 @@
+body {
+  /*background-color: #E8E8E8;*/
+  background-color:  #F0F0F0;
+  /*align-content: center;*/
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.head {
+  color: #0066CC;
+  margin-left: 18px;
+  font-size: 20px;
+}
+
+.instructions {
+  color: #0066CC;
+  font-style: italic;
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.instructions  > p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 23px;
+}
+
+.container-app {
+  background-color: #E8E8E8;
+  max-width: 700px;
+  height: 615px;
+  margin: auto;
+ /* margin-right: 40px;
+  margin-left: 40px;*/
+}
+
+.row {
+  padding-right: 0px;
+  width: 540px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #0066CC;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+  /*color: red;*/
+}
+
+.seted-board {
+/*  background: #fff;
+*/  /*border: 1px solid #0066CC;*/
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.solve, .init, .easy,
+.medium, .hard, .submit, .print-board {
+  margin: 5px;
+  margin-left: 90px;
+/*  padding-right: 50px;
+  padding-left: 50px;*/
+  /*padding: 14px 28px;*/
+  width: 100px;
+  background-color: #0066CC;
+  /*margin-left: -350px;*/
+}
+
+.easy, .medium, .hard {
+  background-color: #D0D0D0;
+  color: #0066CC;
+}
+
+.numbers {
+  color: #0066CC;
+}
+
+.empty-color {
+  /*background-color: #E0E0E0;*/
+ /* background-color:   #F0F0F0;
+  height: 50px;
+  width: 50px;*/
+    /*background-color:   red;
+
+  /*visibility: hidden;*/
+  /*display: none;*/
+}
+
+/*.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  text-align: center;
+}*/
+
+.input {
+  width: 40px;
+  height: 40px;
+  /*border: 1px solid #0066CC;*/
+  color: #0066CC;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+  z-index: 3;
+}
+
+.easy {
+  margin-top: 70px;
+}
+
+.row-space {
+  border-bottom: 2px solid #0066CC;
+}
+
+.col-space-right {
+  border-right-width: 2px;
+  border-right-color: #0066CC;
+}
+
+.fail-message {
+  color: #A00000;
+  font-weight: bold;
+  font-style: italic;
+}
