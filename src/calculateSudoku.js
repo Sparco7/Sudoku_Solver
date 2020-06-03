@@ -7,7 +7,6 @@ const calculateSudoku = (puzzle) => {
   // const printSudoku = (puzzle) => {
   //   console.log(puzzle);
   // }
-
   const saveEmptyPositions = (puzzle) => {
     let emptyPositionsArr = [];
     for(let i = 0; i < 9; i++) {
